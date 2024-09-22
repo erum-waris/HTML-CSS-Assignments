@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+</head>
+<body>
+    <center>
+        <div style="   height: 80px;
+        width: 90vw;
+        background-color: rgb(123, 182, 233);
+       display:flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-bottom: 20px;">
+            <img src="/pana_logo.png" alt="Pana cloud logo" 
+            style=" width: 150px;
+            height: 70px;
+            border-radius: 10px;
+            margin-left: 20px;">
+            <nav>
+            <ul style=" margin-right: 20px;
+            display: flex;
+           gap:10px;
+            text-transform:uppercase ;
+            font-weight: bold;
+            list-style: none;">
+                <li><a style=" color: white;
+                    text-decoration: none;
+                    font-size:1.5rem;" href="/">Home</a></li>
+                <li><a style=" color: white;
+                    text-decoration: none;
+                    font-size:1.5rem;" href="/about.html">About</a></li>
+                <li><a style=" color: white;
+                    text-decoration: none;
+                    font-size:1.5rem;" href="/portfolio.html">portfolio</a></li>
+                <li><a style=" color: white;
+                    text-decoration: none;
+                    font-size:1.5rem;" href="/contact.html">Contact</a></li>
+            </ul>
+       
+        </nav>
+    </div>
+   
+    <form style="width: 600px; border:1px solid black; padding: 10px; height: 70vh;">
+        <fieldset style=" width:80%">
+            <legend>Contact Form</legend>
+            <label for="name"  >Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter Your name here" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter Your email here" required>
+        </fieldset>
+        <br>
+        <fieldset style=" width:80%">
+  <legend>Details:</legend>
+  <label for="query">How Did you hear about us?</label>
+  <select id="query" name="query" >
+  <option value="Google">Google</option>
+  <option value="Youtube">Youtube</option>
+  <option value="Social Media">Social Media</option>
+  <option value="What'sapp">What'sapp</option>
+</select>
+  <br>
+  <br>
+<label for="query">Would You like to Visit Again?</label>
+<br>
+  <input type="radio" id="yes" name="visit" value="yes" checked>
+  <label for="yes">Yes</label>
+  <input type="radio" id="yes" name="visit" value="no" checked>
+  <label for="no">No</label>
+  <input type="radio" id="yes" name="visit" value="Maybe" checked>
+  <label for="Maybe">Maybe</label>
+
+
+  <br><br>
+  <label for="comment">Comment:</label>
+  <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Write your Comment here" required></textarea>
+  <br><br>
+  <label for="signUp"></label><input type="checkbox" name="signUp" >Sign me Up for Email Updates</label>
+  <br><br>
+  <button id="button" style="border-radius: 10px;">Submit Review</button>
+        </fieldset>
+
+        <br>
+<h2>Thanks For Your Review</h2>
+    </form>
+
+
+    <footer style="
+    background-color: rgb(123, 182, 233);
+    width: 90vw;
+    height: 40px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 0px;">
+    <p style="color: rgb(30, 28, 28);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2px;">
+    &copy; 2024 Pana Cloud. All rights reserved.</p>
+    
+ </div>
+</footer>
+</center>
+
+<script>
+    let button = document.getElementById('button');
+    button.addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('Form submitted successfully!');
+    });
+</script>
+
+</body>
+</html>

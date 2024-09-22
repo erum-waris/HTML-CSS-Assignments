@@ -1,0 +1,11 @@
+*{
+    margin: 4;
+    padding: 0;
+}
+
+#piaic {
+    height: 200px;
+    width: 130px;
+    object-fit: fit;
+    border-radius: 60px;
+}
