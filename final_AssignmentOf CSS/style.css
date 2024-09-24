@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    height: 60px;
+    background-color: #86dfe4;
+    width: auto;
+
+}
+nav{
+    display:flex;
+    width: auto;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin:10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#anchor{
+    margin-left:240px;
+}
+
+#logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 80px;
+}
