@@ -6,20 +6,32 @@
 }
 #main-box{
     margin: 10px;
+    
 }
 img{
     width: 300px;
     height: 300px;
     object-fit: contain;
+   
 
 }
 #box{
     font-family: Tahoma, sans-serif;
     width: 292px;
-    height: 200px;
+    height: 250px;
     margin:-55px;
    box-shadow: 2px 2px 2px rgb(195, 195, 222);
    border: 1px solid rgb(179, 204, 233);
    padding: 3px;
   
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #afd5f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgb(195, 195, 222);
 }
